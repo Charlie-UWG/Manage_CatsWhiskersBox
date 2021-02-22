@@ -20,16 +20,16 @@ export const App = () => {
         <button>猫のひげ</button>
         <ul>
           <li class="orderRow">
-            <div class="illst">Image</div>
-            <p>ミケ</p>
+            <div class="illst mr-10">Image</div>
+            <p class="wd-100 mr-10">ミケ</p>
             <div>
               <label>注文数</label>
               <input type="number" />
             </div>
           </li>
-          <li>
-            <div>Image</div>
-            <p>キジ</p>
+          <li class="orderRow">
+            <div class="illst mr-10">Image</div>
+            <p class="wd-100 mr-10">キジ</p>
             <div>
               <label>注文数</label>
               <input type="number" />
@@ -38,23 +38,27 @@ export const App = () => {
         </ul>
         <button>うさぎのひげ</button>
         <ul>
-          <li>
-            <div>Image</div>
-            <p>ネザーランドドワーフ</p>
+          <li class="orderRow">
+            <div class="illst mr-10">Image</div>
+            <p class="wd-100 mr-10">ネザーランドドワーフ</p>
             <div>
               <label>注文数</label>
               <input type="number" />
             </div>
           </li>
-          <li>
-            <div>Image</div>
-            <p>ロップイヤー</p>
+          <li class="orderRow">
+            <div class="illst mr-10">Image</div>
+            <p class="wd-100 mr-10">ロップイヤー</p>
             <div>
               <label>注文数</label>
               <input type="number" />
             </div>
           </li>
         </ul>
+      </div>
+      <div>
+        <p>受注確認</p>
+        <button>入力確認をする</button>
       </div>
     </div>
   );

@@ -26,10 +26,27 @@ label {
 
 .orderRow {
   display: flex;
+  align-items: center;
 }
 
 .illst {
   width: 200px;
   height: 50px;
   border: 1px solid blue;
+}
+
+.wd-50 {
+  width: 50px;
+}
+
+.wd-100 {
+  width: 100px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-10 {
+  margin-right: 10px;
 }
