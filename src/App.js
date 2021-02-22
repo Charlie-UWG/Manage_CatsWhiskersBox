@@ -8,7 +8,7 @@ export const App = () => {
   return (
     <div>
       <div class="dateInputDiv">
-        <label>受注日入力</label>
+        <label class="label">受注日入力</label>
         <input
           // placeholder="受注日"
           type="date"
@@ -19,9 +19,8 @@ export const App = () => {
       <div class="orderInputDiv">
         <button>猫のひげ</button>
         <ul>
-          <li>
-            <p>1</p>
-            <div>Image</div>
+          <li class="orderRow">
+            <div class="illst">Image</div>
             <p>ミケ</p>
             <div>
               <label>注文数</label>
@@ -29,7 +28,6 @@ export const App = () => {
             </div>
           </li>
           <li>
-            <p>2</p>
             <div>Image</div>
             <p>キジ</p>
             <div>
@@ -41,7 +39,6 @@ export const App = () => {
         <button>うさぎのひげ</button>
         <ul>
           <li>
-            <p>1</p>
             <div>Image</div>
             <p>ネザーランドドワーフ</p>
             <div>
@@ -50,7 +47,6 @@ export const App = () => {
             </div>
           </li>
           <li>
-            <p>2</p>
             <div>Image</div>
             <p>ロップイヤー</p>
             <div>
