@@ -8,7 +8,7 @@ export const App = () => {
   //ひげの種類を設定（将来的に追加処理ができるようにstateにしてもよいかも？）
   const buttonNames = ["猫のひげ", "ウサギのひげ"];
   //商品名の設定
-  const catNames = ["ミケ", "キジ", "ノビノビ", "ジャンプ"];
+  const catNames = ["ミケ", "キジ", "ノビノビ", "ジャンプ", "a", "b", "c"];
   const rabbitNames = ["ネザーランドドワーフ", "ロップイヤー"];
   const itemNames = [catNames, rabbitNames];
 
@@ -29,7 +29,7 @@ export const App = () => {
           return (
             <div key={index}>
               <button>{buttonName}</button>
-              <ul>
+              <ul className="itemContainer">
                 {/* 商品名でループ表示 */}
                 {itemNames[index].map((item) => {
                   return (

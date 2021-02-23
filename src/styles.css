@@ -50,3 +50,8 @@ label {
 .mr-10 {
   margin-right: 10px;
 }
+
+.itemContainer {
+  max-height: 60vh;
+  overflow-y: auto;
+}
