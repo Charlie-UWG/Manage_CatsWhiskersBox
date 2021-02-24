@@ -9,7 +9,7 @@ export const App = () => {
   const buttonNames = ["猫のひげ", "ウサギのひげ"];
   //商品名の設定
   const catNames = ["ミケ", "キジ", "ノビノビ", "ジャンプ", "a", "b", "c"];
-  const rabbitNames = ["ネザーランドドワーフ", "ロップイヤー"];
+  const rabbitNames = ["ネザーランドドワーフ", "ロップイヤー", "d"];
   const itemNames = [catNames, rabbitNames];
 
   return (
