@@ -35,6 +35,10 @@ label {
   border: 1px solid blue;
 }
 
+.wd-20 {
+  width: 20px;
+}
+
 .wd-50 {
   width: 50px;
 }
@@ -49,6 +53,10 @@ label {
 
 .mr-10 {
   margin-right: 10px;
+}
+
+.textal-c {
+  text-align: center;
 }
 
 .itemContainer {

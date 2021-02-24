@@ -39,7 +39,7 @@ export const App = () => {
                         <p className="wd-100 mr-10">{item}</p>
                         <div>
                           <label>注文数</label>
-                          <input type="number" />
+                          <input type="number" className="wd-50 textal-c" />
                         </div>
                       </li>
                     </div>
